@@ -12,6 +12,4 @@ request=youtube.videos().list(
     )
 response=request.execute()
 
-info=response['items'][0]['snippet']['title']
-
-print("Title: " + info)
+print(response)
